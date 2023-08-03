@@ -1,30 +1,32 @@
-**Telecom Churn Analysis - Exploratory Data Analysis (EDA) Report**
+#  **Telecom Churn Analysis - Exploratory Data Analysis (EDA) Report**
 
-**Introduction:**
-Exploratory Data Analysis (EDA) is a crucial process in understanding and extracting insights from a dataset. In the context of telecom churn analysis, it helps us identify patterns, anomalies, and relationships among variables. This report summarizes the EDA conducted on the telecom churn dataset.
+ **Introduction:**
+ Exploratory Data Analysis (EDA) is a crucial process in understanding and extracting insights from a dataset. In the context of telecom churn analysis, it helps 
+ us identify patterns, anomalies, and relationships among variables. This report summarizes the EDA conducted on the telecom churn dataset.
 
-**Dataset Overview:**
-The dataset contains information about telecom customers, including variables like call details, charges, customer service calls, and churn status. The primary goal is to identify factors contributing to customer churn.
+ **Dataset Overview:**
+ The dataset contains information about telecom customers, including variables like call details, charges, customer service calls, and churn status. The primary 
+ goal is to identify factors contributing to customer churn.
 
-**EDA Process:**
+ **EDA Process:**
 
-1. **Understanding the Dataset:**
+ 1. **Understanding the Dataset:**
    - Initial exploration of the variables and structure of the dataset was conducted.
    - Identified key features such as call duration, charges, international calls, and customer service calls.
 
-2. **Data Preprocessing and Cleansing:**
+ 2. **Data Preprocessing and Cleansing:**
    - Checked for missing values and handled as necessary.
    - Identified and removed outliers using techniques like the box plot.
 
-3. **Variable Analysis:**
+ 3. **Variable Analysis:**
    - Explored correlations among predictor variables. Found weak correlations, indicating all variables could be retained for modeling.
    - Detected that the area code variable had little influence, suggesting it could be omitted.
 
-4. **Classification and Clustering:**
+ 4. **Classification and Clustering:**
    - Utilized classification and clustering techniques for unsupervised machine learning.
    - Grouped customers based on similar characteristics to gain further insights into churn patterns.
 
-5. **Graphical Representations:**
+ 5. **Graphical Representations:**
    - Utilized various graphs to visualize data:
      - Bar plot and pie plot to show distribution of categorical variables.
      - Box plot to identify outliers and distribution of continuous variables.
@@ -33,7 +35,7 @@ The dataset contains information about telecom customers, including variables li
      - Heatmap to display correlations between numerical variables.
      - Pair plot and scatter plot for multivariate analysis.
 
-**Key Insights:**
+ **Key Insights:**
 
 1. Charge Fields: Identified linear relationships between charge fields and minute fields.
 2. Area Code: Area code was found to have minimal impact and could be excluded.
@@ -41,7 +43,7 @@ The dataset contains information about telecom customers, including variables li
 4. Long Duration Calls: High churn observed among long duration callers, often linked to service quality issues.
 5. Customer Service Calls: Customers making more than 4 service calls were more likely to churn.
 
-**Churn Reduction Strategies:**
+ **Churn Reduction Strategies:**
 
 1. Modify Pricing: Reduce day call charges and offer special rates during low traffic periods.
 2. International Plans: Market international plans to capture a larger customer segment.
@@ -49,9 +51,7 @@ The dataset contains information about telecom customers, including variables li
 4. Customer Support: Enhance customer support and provide tariff rebates for international callers.
 5. State-Specific Strategies: Tailor strategies based on state-level churn trends.
 
-**Conclusion:**
+ **Conclusion:**
 The EDA conducted on the telecom churn dataset provided valuable insights into customer behavior and churn patterns. This information can guide decision-making to implement effective strategies for churn reduction, improve service quality, and enhance customer satisfaction. By leveraging these insights, telecom companies can better retain their customers in a highly competitive market.
 
 For more detailed visualizations and interactive analysis, please refer to the [Tableau Dashboard](https://public.tableau.com/views/TelecomchurnAnalysis/TelecomChurnDashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
-
-*Note: This report is based on the analysis performed up to September 2021.*
